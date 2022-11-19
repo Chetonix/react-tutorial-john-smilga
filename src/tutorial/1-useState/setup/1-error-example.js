@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ErrorExample = () => {
-  return <h2>useState error example</h2>;
+  return (<div>
+  <h2>random title</h2>
+  <button type="button" className="btn" onClick={()=>console.log("helllo people")}>change title</button>
+  </div>
+  )
 };
 
 export default ErrorExample;
